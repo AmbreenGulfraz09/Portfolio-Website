@@ -1,0 +1,335 @@
+@media only screen and (min-width:590px) and (max-width:1100px) {
+    .w-img {
+        display: none;
+    }
+
+    .first-body {
+        flex-direction: column;
+    }
+
+    h1 {
+        width: 750px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .intro {
+        order: -1;
+    }
+
+    .intro p {
+        width: 750px;
+    }
+
+    .second-container {
+        margin-left: 20%;
+        width: 600px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .nav-bar {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .about-me {
+        width: 170px;
+        font-size: 18px;
+    }
+
+    .card {
+        height: 300px;
+        width: 200px;
+    }
+
+    .card p {
+        margin-left: 10px;
+    }
+
+    .right-cont {
+        margin-top: 20px;
+    }
+
+    .progress {
+        width: 200px;
+    }
+
+    .t-icon-in {
+        margin-left: 8px;
+    }
+
+    .t-icon {
+        height: 40px;
+        text-align: center;
+    }
+
+    .t-icon svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .contact-start {
+        text-align: center;
+    }
+
+
+    .h-c {
+        width: 100%;
+    }
+
+    .p-d {
+        margin-left: 25%;
+    }
+
+    .p-d p {
+        margin-left: -120px;
+    }
+
+    .projects-sec {
+        width: fit-content;
+        gap: 40px;
+        margin-left: 20%;
+    }
+
+    .input-control {
+        width: 700px;
+        height: 50px;
+    }
+
+    .message {
+        width: 700px;
+    }
+
+    .in-divs {
+        gap: 300px;
+    }
+}
+
+@media only screen and (max-width:589px) {
+    .w-img {
+        display: none;
+    }
+
+    .first-body {
+        flex-direction: column;
+    }
+
+    h1 {
+        width: 700px;
+        font-size: 60px;
+
+    }
+
+    .p-d {
+        margin-left: 10%;
+    }
+
+    .projects-sec {
+        width: fit-content;
+        gap: 40px;
+        margin-left: 35%;
+    }
+
+    .intro {
+        order: -1;
+    }
+
+    .intro p {
+        width: 700px;
+        font-size: 40px;
+    }
+
+    .second-container {
+        margin-left: 20%;
+        width: 700px;
+        text-align: center;
+    }
+
+    .nav-bar {
+        flex-direction: row;
+        margin-left: -80%;
+        top: 90%;
+        background-color: #474849;
+        text-align: center;
+        height: 120px;
+        width: 1000px;
+        left: 40%;
+
+    }
+
+    .dp {
+        height: 600px;
+        width: 500px;
+        margin-bottom: 30px;
+    }
+
+    .info-container {
+        flex-direction: column;
+    }
+
+    .about-me {
+        width: 400px;
+        margin-left: 5px;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .card {
+        width: 500px;
+    }
+
+    .right-cont {
+        width: 100%;
+    }
+
+    .ab-h {
+        font-size: 15px;
+    }
+
+    .h-c {
+        font-size: 40px;
+    }
+
+
+    .right-cont {
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .progress {
+        width: 200px;
+    }
+
+    .t-icon-in {
+        margin-left: 8px;
+    }
+
+    .t-icon {
+        height: 40px;
+    }
+
+    .timeline {
+        flex-direction: column;
+    }
+
+    .skills {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .t-icon svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .contact-start {
+        text-align: center;
+    }
+
+    /* 
+    .h-c {
+        width: 100%;
+    } */
+
+    .input-control {
+        width: 600px;
+        height: 50px;
+    }
+
+    .message {
+        width: 600px;
+    }
+
+    .in-divs {
+        gap: 320px;
+    }
+
+
+    .submit-btn {
+        margin-bottom: 20%;
+    }
+
+    .contaier {
+        margin-left: 30px;
+    }
+
+    .info-right-child {
+        gap: 100px;
+    }
+
+    .c-p {
+        width: 650px;
+    }
+}
+
+
+
+@media only screen and (max-width:480px) {
+    .w-img {
+        display: none;
+    }
+
+    .first-body {
+        flex-direction: column;
+    }
+
+
+    h1 {
+        width: 400px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .intro {
+        order: -1;
+    }
+
+    .intro p {
+        width: 550px;
+        font-size: 18px;
+    }
+
+    .second-container {
+        margin-left: 40%;
+        width: 300px;
+        text-align: center;
+    }
+
+    .nav-bar {
+        flex-direction: row;
+        margin-left: -45%;
+        top: 90%;
+        background-color: #474849;
+        text-align: center;
+        height: 120px;
+        width: 800px;
+        left: 40%;
+
+    }
+
+    .dp {
+        height: 500px;
+
+    }
+
+    .info-container {
+        flex-direction: column;
+    }
+
+    .about-me {
+        width: 350px;
+        margin-left: 5px;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .card {
+        width: 450px;
+    }
+
+    .right-cont {
+        width: 100%;
+    }
+}
